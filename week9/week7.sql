@@ -12,7 +12,7 @@ CREATE TABLE enrollments (
     subject VARCHAR(100) NOT NULL,
     enrollment_date DATE NOT NULL,
     grade DECIMAL(5,2),
-
+  
     FOREIGN KEY (student_id)
         REFERENCES students(student_id)
 );
