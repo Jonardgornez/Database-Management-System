@@ -1,0 +1,3 @@
+select count(*) from students;
+select sum(grade) from students;
+select avg(grade) as avg_grade from students;
