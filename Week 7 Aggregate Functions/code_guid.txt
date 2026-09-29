@@ -4,3 +4,4 @@ select avg(grade) as avg_grade from students;
 select concat(first_name," ", last_name) as full_name, max(grade) from students;
 select concat(first_name," ", last_name) as full_name, max(grade) as grade from students;
 select course, avg(grade) from students group by course;
+select course, count(*) as total_students from students where age >= 20 group by course having total_students > 10;
