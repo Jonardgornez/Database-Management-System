@@ -2,3 +2,4 @@ select count(*) from students;
 select sum(grade) from students;
 select avg(grade) as avg_grade from students;
 select concat(first_name," ", last_name) as full_name, max(grade) from students;
+select concat(first_name," ", last_name) as full_name, max(grade) as grade from students;
